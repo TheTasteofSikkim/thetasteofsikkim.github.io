@@ -5,6 +5,7 @@
 /* line 3, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_common.scss */
 body {
   font-family: "Lora", serif;
+  /* font-family: "Product Sans", serif; */
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -155,7 +156,8 @@ a:hover {
 /* line 82, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_common.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #2c3033;
-  font-family: "Cardo", serif;
+  /* font-family: "Cardo", serif; */
+  font-family: "Product Sans", serif;
 }
 
 /* line 86, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_common.scss */
@@ -2507,6 +2509,7 @@ ul {
 /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_banner.scss */
 .banner_part {
   height: 880px;
+  margin-top:90px;
   position: relative;
   background-image: url(../img/banner_bg.jpg);
   background-repeat: no-repeat;
@@ -2656,7 +2659,8 @@ ul {
 /* line 91, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_banner.scss */
 .banner_part .banner_text h1 {
   font-size: 53px;
-  font-family: "Cardo", serif;
+  /* font-family: "Cardo", serif; */
+  font-family: "Product Sans", serif;
   font-weight: 700;
   margin-bottom: 15px;
   line-height: 1.273;
