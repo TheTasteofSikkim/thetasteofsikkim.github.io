@@ -2,14 +2,15 @@
 /**************** extend css start ****************/
 /**************** common css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Lora:400,400i,700,700i");
+@import url('https://fonts.cdnfonts.com/css/product-sans');
 /* line 3, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_common.scss */
 html{
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Lora", serif;
-  /* font-family: "Product Sans", serif; */
+  /* font-family: "Lora", serif; */
+  font-family: "Product Sans", sans-serif;
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -2783,6 +2784,7 @@ ul {
   padding: 14px 0px 14px 25px;
   border-left: 1px solid #2c3033;
   position: relative;
+  font-family:'Lora', serif;
 }
 
 @media (max-width: 576px) {
@@ -7171,6 +7173,7 @@ h6 {
 .footer-area .contact_info {
   position: relative;
   margin-bottom: 20px;
+  font-family:'Lora',serif;
 }
 
 /* line 103, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_footer.scss */
