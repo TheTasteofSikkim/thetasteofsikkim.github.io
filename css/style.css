@@ -2718,12 +2718,15 @@ ul {
   display: inline-block;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border-right: 1px solid transparent;
+  /* border-right: 1px solid transparent; */
+  border-right: 1px solid;
+  margin-left:15px;
 }
 
 /* line 127, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_banner.scss */
 .banner_part .banner_text .banner_btn_iner:before {
-  width: 60px;
+  /* width: 60px; */
+  width: 100%;
   height: 1px;
   position: absolute;
   content: "";
@@ -2738,7 +2741,8 @@ ul {
 
 /* line 139, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_banner.scss */
 .banner_part .banner_text .banner_btn_iner:after {
-  width: 60px;
+  /* width: 60px; */
+  width: 100%;
   height: 1px;
   position: absolute;
   content: "";
