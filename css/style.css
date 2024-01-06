@@ -2719,8 +2719,9 @@ ul {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   /* border-right: 1px solid transparent; */
-  border-right: 1px solid;
-  margin-left:15px;
+  /* border-right: 1px solid; */
+  border: 1px solid;
+  /* margin-left:15px; */
 }
 
 /* line 127, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_banner.scss */
@@ -2794,7 +2795,7 @@ ul {
 @media (max-width: 576px) {
   /* line 170, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_banner.scss */
   .banner_part .banner_text .btn_2 {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 }
 
@@ -7096,7 +7097,8 @@ h6 {
 
 /* line 39, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_footer.scss */
 .footer-area .single-footer-widget ul li a {
-  color: #555555;
+  /* color: #555555; */
+  color: #ff6426;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-size: 15px;
